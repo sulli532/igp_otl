@@ -15,6 +15,39 @@ The International Grade Placement (IGP) index was created in order to measure th
 
 This document outlines the construction of IGP. The original work was performed in SAS. That file is at the end of this report. `R` code is presented throughout this report to replicate the original SAS file.
 
+### Data Sources
+
+Data for IGP comes from two sources. The student responses are from the student survey of the PISA 2012 study. The curriculum weights are derived from the Topic Trace Maps of the TIMSS 1995 study.
+
+#### PISA Survey Items
+
+There are 16 questionnaire items in the PISA 2012 survey that assess a students exposure to formal mathematics. Each question asks the student to rate their experience with a mathematical topic via a question of the form, "Thinking about mathematical concepts: how familiar are you with the following terms?" There are 13 legitimate mathematics topics and 3 topics that are fictional intended to capture when a student is "overclaiming" their math experience. The topics are:
+
+- Exponential Function
+- Divisor
+- Quadratic Function
+- Proper Number (Overclaiming item)
+- Linear Equation
+- Vectors
+- Complex Number
+- Rational Number
+- Radicals
+- Subjective Scaling (Overclaiming item)
+- Polygon
+- Declarative Fraction (Overclaiming item)
+- Congruent Figure
+- Cosine
+- Arithmetic Mean
+- Probability
+
+Students responses are on a 5-point likert scale:
+
+- 1 = "Never heard of it"
+- 2 = "Heard of it once or twice"
+- 3 = "Heard of it a few times"
+- 4 = "Heard of it often"
+- 5 = "Know it well, understand the concept"
+
 
 ### SAS File from Richard
 
