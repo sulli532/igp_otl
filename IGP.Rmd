@@ -40,6 +40,44 @@ There are 16 questionnaire items in the PISA 2012 survey that assess a students 
 - Arithmetic Mean
 - Probability
 
+
+| Topic                | Weight        | 
+|:---------------------|:-------------:|
+| Exponential Function |     9.5       |
+|                      |               |
+| Divisor              |     3.5       |
+|                      |               |
+| Quadratic Function   |     9.5       |
+|                      |               |
+| Proper Number        |     NA        |
+| (Overclaiming item)  |               |
+| Linear Equation      |     7.75      |
+|                      |               |
+| Vectors              |     9.75      |
+|                      |               |
+| Complex Number       |     11.75     |
+|                      |               |
+| Rational Number      |     8.5       |
+|                      |               |
+| Radicals             |     7.5       |
+|                      |               |
+| Subjective Scaling   |     NA        |
+| (Overclaiming item)  |               |
+| Polygon              |     6.75      |
+|                      |               |
+| Declarative Fraction |     NA        |
+| (Overclaiming item)  |               |
+| Congruent Figure     |     5.81      |
+|                      |               |
+| Cosine               |     9.75      |
+|                      |               |
+| Arithmetic Mean      |     7.625     |
+|                      |               |
+| Probability          |     8.875     |
+|                      |               |
+
+
+
 Students responses are on a 5-point likert scale:
 
 - 1 = "Never heard of it"
@@ -48,6 +86,7 @@ Students responses are on a 5-point likert scale:
 - 4 = "Heard of it often"
 - 5 = "Know it well, understand the concept"
 
+The Topic Trace Map was developed from a survey of xxx countries asking them to describe their math curriculum in terms of topic coverage and in which grade levels those topics are emphasized. From that trace map, across country averages were used to developed a set of weights for the topics included in the PISA items. The weights are intended to represent relative difficulty. The idea is that more responses of 5 "Know it well, understand the concept" should be given more weight in the index in the topic is more advanced. Table 1. outlines the weights for each topic.
 
 ### SAS File from Richard
 
